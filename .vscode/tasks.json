@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "iverilog",
+            "type": "shell",
+            "command": "iverilog -g2005-sv -o output/sim.vvp ${file} && vvp output/sim.vvp",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
