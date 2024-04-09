@@ -45,7 +45,6 @@ module cpu #(parameter n = 8)
     );
 
     prog #(.Psize(`PSIZE), .Csize(`CSIZE)) p (
-        .clk(clk),
         .addr(progAddr),
         .controlWord(controlWord)
     );

@@ -9,7 +9,6 @@
 `include "src/definitions.sv"
 
 module prog #(parameter Psize = 4, Csize = 11) (
-    input logic clk,
     input logic [Psize-1:0] addr,
     output logic [Csize-1:0] controlWord
 );
