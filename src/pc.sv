@@ -8,7 +8,7 @@
 `ifndef PC_SV
 `define PC_SV
 
-module pc #(parameter Psize = 6) (
+module pc #(parameter Psize = 4) (
     input logic clk, nReset, hold,
     output logic [Psize-1:0] out
 );

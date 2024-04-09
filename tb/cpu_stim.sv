@@ -63,7 +63,7 @@ module cpu_stim;
         #50 y2 = out;
         $display("Get y2: %d", y2);
         readyIn = 0;
-        #100;
+        #200;
     endtask
 
     task golden_affine(
@@ -86,8 +86,8 @@ module cpu_stim;
     logic pass = 1'b1;
     // Affine transformation parameters
     int seed = 1;
-    //real b0 = 20, b1 = -20, a0 = 0.75, a1 = 0.5, a2 = -0.5, a3 = 0.75; // prog.hex values
-    real b0 = 5, b1 = 12, a0 = 0.5, a1 = -0.875, a2 = -0.875, a3 = 0.75; // prog2.hex values
+    real b0 = 20, b1 = -20, a0 = 0.75, a1 = 0.5, a2 = -0.5, a3 = 0.75; // prog.hex values
+    //real b0 = 5, b1 = 12, a0 = 0.5, a1 = -0.875, a2 = -0.875, a3 = 0.75; // prog2.hex values
     real golden_x2, golden_y2;
     // Test cases
     logic signed [7:0] x1, y1, x2, y2;
