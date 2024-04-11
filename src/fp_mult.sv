@@ -9,6 +9,7 @@
 `define FP_MULT_SV
 
 `include "src/mult.sv"
+`define ROUNDING
 
 module fp_mult #(parameter n = 8, f = 7) (
     input logic signed [n-1:0] a, b,
