@@ -3,6 +3,10 @@
 //`define DEBOUNCING
 //`define COST
 
+`ifndef COST
+`define ROUNDING
+`endif
+
 module top (
     input logic fastclk,   // 50MHz Altera DE0 clock
     input logic [9:0] SW,  // Switches SW0..SW9

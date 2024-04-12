@@ -1,2 +1,15 @@
 .DS_Store
 output/sim.vvp
+output/top.asm.rpt
+output/top.done
+output/top.fit.rpt
+output/top.fit.smsg
+output/top.fit.summary
+output/top.flow.rpt
+output/top.jdi
+output/top.map.rpt
+output/top.map.summary
+output/top.pin
+output/top.sld
+output/top.sta.rpt
+output/top.sta.summary

@@ -14,7 +14,7 @@
 `define N 8 // 8-bit data width
 `define F 7 // 7-bit fractional part for fixed-point arithmetic
 `define PSIZE 4 // up to 16 instructions CHANGED
-`define ROUNDING // Enable rounding for fixed-point multiplication
+//`define ROUNDING // Enable rounding for fixed-point multiplication
 `define DSP_ADDER // Use DSP adder for adder module
 
 // -------------------------

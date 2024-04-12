@@ -22,7 +22,7 @@ module regs #(parameter n = 8, Rsize = 1) (
 	always_ff @ (posedge clk) begin
 		if (w)
 			gpr[Raddr] <= Wdata;
-		Rdata = gpr[Raddr];
+		Rdata <= gpr[Raddr];
 	end
 	
 endmodule

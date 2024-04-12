@@ -6,9 +6,9 @@ set_location_assignment PIN_AD11 -to SW[4]
 set_location_assignment PIN_AD12 -to SW[5]
 set_location_assignment PIN_AE11 -to SW[6]
 set_location_assignment PIN_AC9 -to SW[7]
-set_location_assignment PIN_AD10 -to SW[8]
-set_location_assignment PIN_AE12 -to SW[9]
-set_location_assignment PIN_AF14 -to fastclk
+set_location_assignment PIN_AD10 -to SW[8] #handshake
+set_location_assignment PIN_AE12 -to SW[9] #nReset
+set_location_assignment PIN_AF14 -to fastclk #50MHz
 set_location_assignment PIN_V16 -to LED[0]
 set_location_assignment PIN_W16 -to LED[1]
 set_location_assignment PIN_V17 -to LED[2]
